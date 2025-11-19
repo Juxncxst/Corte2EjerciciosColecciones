@@ -1,0 +1,5 @@
+t = tuple(map(int, input().split()))
+s = sum(t)
+p = s / len(t)
+print(s)
+print(p)
